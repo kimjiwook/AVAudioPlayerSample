@@ -52,6 +52,7 @@ class ViewController: UIViewController {
     ///
     /// - Parameter sender:
     @IBAction func doPlay(_ sender: Any) {
+        print("이것은 실행입니다.")
         self.avPlayer.play()
     }
     
